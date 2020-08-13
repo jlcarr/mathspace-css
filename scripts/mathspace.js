@@ -29,7 +29,7 @@ async function main(){
 	for(var i=0; i < 40; i++){
 		var initial_x = Math.round(100*Math.random()-50).toString();
 		var initial_y = Math.round(100*Math.random()-50).toString();
-		var initial_z = Math.round(10*Math.random()+5).toString();
+		var initial_z = Math.round(10*Math.random()+2).toString();
 	
 		var equation_div = document.createElement('div');
 		equation_div.setAttribute('id','eq');
