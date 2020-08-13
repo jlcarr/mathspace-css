@@ -2,13 +2,13 @@
 
 var equation_set = [];
 
-//Gauss's Law (Maxell Equation)
+//Gauss's Law (Maxwell Equation)
 equation_set.push(String.raw`\iint _{\partial \Omega } \mathbf {E} \cdot \mathrm {d} \mathbf {S} ={\frac {1}{\varepsilon _{0}}}\iiint _{\Omega }\rho \,\mathrm {d} V`);
-//Gauss's Law For Magnetism (Maxell Equation)
+//Gauss's Law For Magnetism (Maxwell Equation)
 equation_set.push(String.raw`\iint _{\partial \Omega } \mathbf {B} \cdot \mathrm {d} \mathbf {S} =0`);
-//Faraday's Law (Maxell Equation)
+//Faraday's Law (Maxwell Equation)
 equation_set.push(String.raw`\oint _{\partial \Sigma } \mathbf{E} \cdot \mathrm {d} \mathbf {l} =-{\frac {\mathrm {d} }{\mathrm {d} t}}\iint _{\Sigma }\mathbf {B} \cdot \mathrm {d} \mathbf {S}`);
-//Ampere's Law (Maxell Equation)
+//Ampere's Law (Maxwell Equation)
 equation_set.push(String.raw`{\begin{aligned}\oint _{\partial \Sigma }&\mathbf {B} \cdot \mathrm {d} {\mathbf {l}}=\mu _{0}\left(\iint _{\Sigma }\mathbf {J} \cdot \mathrm {d} \mathbf {S} +\varepsilon _{0}{\frac {\mathrm {d} }{\mathrm {d} t}}\iint _{\Sigma }\mathbf {E} \cdot \mathrm {d} \mathbf {S} \right)\\\end{aligned}}`);
 
 // Navier-Stokes Equation
